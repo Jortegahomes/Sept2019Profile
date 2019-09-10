@@ -1,0 +1,148 @@
+*{font-family: 'Abhaya Libre', serif;}
+
+.navbar{ background: #fff} /*Sets the color of the entire navbar*/
+
+.nav-link , .navbar-brand{ color: #000000; cursor: pointer;} /*Sets the Color of the links prior to being hovered over.  */
+
+.nav-link{ margin-right: 1em !important;}  /*Adds space between the links*/
+
+.nav-link:hover{ background: #717171; color: #fff; } /*Sets the colors once the pointer is hovered over the link*/
+
+.navbar-collapse{ justify-content: flex-end;} /*Set the nav links to the right using flex*/
+
+.navbar-toggler{  background:#fff !important;} /*Sets the color for the */
+
+/*HEADER CSS*/
+
+#myVideo {
+  position: scroll; /*Position gives the options to have the video scroll with user movement or stay in a fixed locaiton*/
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+
+
+
+.description{
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+  
+}
+.description h1{
+color:#fff ;
+font-size: 150px;
+}
+
+.description h5{
+  color:#fff;
+}
+
+
+/*ABOUT ME*/
+.about{
+  margin: 4em 0;
+  padding: 1em;
+  position: relative;
+ }
+ .about h1{
+  color:#000000;
+  margin: 2em;
+ }
+ .about img{
+  height: 100%;
+     width: 100%;
+     border-radius: 50%
+ }
+ .about span{
+  display: block;
+  color: #888;
+  position: absolute;
+  left: 115px;
+ }
+ .about .desc{
+  padding: 2em;
+  border-left:4px solid #000000;
+ }
+ .about .desc h3{
+  color: #000000;
+ }
+ .about .desc p{
+  line-height:2;
+  color:#888;
+ }
+
+ 
+ /*Portfolio*/
+.portfolio{
+  margin: 4em 0;
+     position: relative; 
+ }
+ .portfolio h1{
+  columns: #000000;;
+  margin: 2em; 
+ }
+ .portfolio img{
+   height: 20 rem;
+   width: 100%;
+   margin: 1em;
+   
+ }
+
+ /*Team*/
+ 
+ .team{
+  margin: 4em 0;
+  position: relative;  
+ }
+ .team h1{
+  color:#717171;
+  margin: 2em; 
+ }
+ .team .item{
+  position: relative;
+ }
+ .team .des{
+  background: #717171;
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 93%;
+  transition:.3s ease-in-out;
+  
+ }
+ .team .item:hover .des{
+  height: 100%;
+  background:#72726d1d;
+  position: absolute;
+  width: 89%;
+  padding: 5em;
+  top: 0;
+  border-bottom-left-radius: 0;
+ }
+
+ /*Container*/
+ .contact-form{
+  margin: 6em 0;
+  position: relative;  
+ }
+ 
+ .contact-form h1{
+  padding:2em 1px;
+  color: #000000; 
+ }
+ .contact-form .right{
+  max-width: 600px;
+ }
+ .contact-form .right .btn-secondary{
+  background:  #000000;
+  color: #fff;
+  border:0;
+ }
+ .contact-form .right .form-control::placeholder{
+  color: #888;
+  font-size: 16px;
+ }
+
